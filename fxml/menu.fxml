@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="262.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu">
+   <children>
+      <ImageView fx:id="imgTitle" fitHeight="150.0" fitWidth="200.0" layoutX="51.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/title.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="cbGameType" layoutX="81.0" layoutY="260.0" prefHeight="27.0" prefWidth="100.0" style="-fx-border-color: black; -fx-background-color: white;" />
+      <Label fx:id="lblGameType" layoutX="63.0" layoutY="231.0" text="Choose how many games?" />
+      <DialogPane headerText="WINNER!!!" layoutX="-10.0" layoutY="72.0" prefHeight="345.0" prefWidth="306.0" visible="false" />
+   </children>
+</AnchorPane>
